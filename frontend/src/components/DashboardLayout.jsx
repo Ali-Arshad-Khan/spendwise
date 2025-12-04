@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { DesktopSideBar } from "./sideBar";
-import { MobileSideBar } from "./sideBar";
+import { DesktopSideBar } from "./SideBar";
+import { MobileSideBar } from "./SideBar";
 
 export default function DashboardLayout() {
   return (
