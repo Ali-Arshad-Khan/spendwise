@@ -1,0 +1,48 @@
+@font-face {
+  font-family: lato;
+  src: url(./assets/fonts/Lato-Regular.ttf);
+}
+@import "tailwindcss";
+
+@theme {
+  --color-mainbg: #141414;
+  --color-cardbg: #0D0D0D;
+  --color-sidebarbg: #0D0D0D;
+  --color-dashboardbg: #141414;
+  --color-balance: #69CCFF;
+  --color-expense: #FB667A;
+  --color-budget: #4ADE80;
+  --color-primary: #1174F9;
+  --color-custombg: #141414;
+  --default-font-family: lato, "sans-serif";
+}
+
+@keyframes squeezeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.85, 1.15); /* squeezed vertically */
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05, 0.95); /* bounce out */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);       /* normal size */
+  }
+}
+
+.animate-squeezeIn {
+  animation: squeezeIn 0.22s ease-out forwards;
+}
+
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
