@@ -59,10 +59,12 @@ export default function Header() {
                 Documentation
               </button>
             </Link>
+            <a href="https://github.com/Ali-Arshad-Khan/spendwise">
             <button className="flex justify-center items-center gap-2 py-1.5 px-2.5 rounded-sm cursor-pointer hover:text-gray-300 transition-all duration-300">
               <img className="hidden sm:block w-5" src={star} alt="" />
               <p>Github Star</p>
             </button>
+            </a>
             <Link to="/dashboard">
               <button className="ml-2 shadow-[inset_0px_3px_2px_-2px_rgba(255,255,255,1)] py-1.5 px-2.5 rounded-sm bg-primary cursor-pointer hover:text-black hover:bg-white transition-all duration-300">
                 Get Started
@@ -85,12 +87,12 @@ export default function Header() {
                 Documentation
               </button>
             </Link>
-            <Link>
+            <a href="https://github.com/Ali-Arshad-Khan/spendwise">
               <button className="flex justify-center items-center gap-2 py-1.5 px-2.5 rounded-sm cursor-pointer hover:text-gray-300 transition-all duration-300">
                 <img className="w-5" src={star} alt="" />
                 <p>Github Star</p>
               </button>
-            </Link>
+            </a>
             <Link to="/dashboard">
               <button className="mt-2 ml-2 shadow-[inset_0px_3px_2px_-2px_rgba(255,255,255,1)] py-1.5 px-2.5 rounded-sm bg-primary cursor-pointer hover:text-black hover:bg-white transition-all duration-300">
                 Get Started
