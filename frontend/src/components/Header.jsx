@@ -59,7 +59,7 @@ export default function Header() {
                 Documentation
               </button>
             </Link>
-            <a href="https://github.com/Ali-Arshad-Khan/spendwise">
+            <a href="https://github.com/Ali-Arshad-Khan/spendwise" target="_blank">
             <button className="flex justify-center items-center gap-2 py-1.5 px-2.5 rounded-sm cursor-pointer hover:text-gray-300 transition-all duration-300">
               <img className="hidden sm:block w-5" src={star} alt="" />
               <p>Github Star</p>
@@ -87,7 +87,7 @@ export default function Header() {
                 Documentation
               </button>
             </Link>
-            <a href="https://github.com/Ali-Arshad-Khan/spendwise">
+            <a href="https://github.com/Ali-Arshad-Khan/spendwise" target="_blank">
               <button className="flex justify-center items-center gap-2 py-1.5 px-2.5 rounded-sm cursor-pointer hover:text-gray-300 transition-all duration-300">
                 <img className="w-5" src={star} alt="" />
                 <p>Github Star</p>
