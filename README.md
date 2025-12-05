@@ -1,5 +1,6 @@
-📊 Spendwise — Smart Expense Management System
+
 <p align="center"> <img src="./frontend/src/assets/images/icons/logo.png" alt="Spendwise Logo" width="160"/> </p>
+<p align="center">📊 Spendwise — Smart Expense Management System</p>
 
 Live Demo: [https://your-live-project-link.com](https://spendwise-mqxp.onrender.com/)
 
@@ -15,8 +16,11 @@ With AI-powered insights, responsive UI/UX, analytics, charts, and export featur
 Most people struggle with:
 
 Tracking daily expenses
+
 Understanding financial habits
+
 Managing budgets
+
 Analyzing spending patterns
 
 Spendwise provides a centralized, visual, and intelligent platform to simplify all financial tracking.
@@ -26,8 +30,11 @@ Spendwise provides a centralized, visual, and intelligent platform to simplify a
 Better financial clarity leads to:
 
 Smarter decisions
+
 Better savings
+
 Reduced stress
+
 Improved control over finances
 
 Spendwise gives users a clear picture of where their money actually goes.
@@ -35,26 +42,39 @@ Spendwise gives users a clear picture of where their money actually goes.
 🔥 Features
 
 AI-powered Smart Chatbot
+
 User Authentication
+
 Add/Delete Income & Expenses
+
 Income & Expense Pages
+
 Analytics & Charts
+
 Fully Responsive UI
+
 Experiment Labs
+
 Export Options
+
 Glass Theme
 
 🔐 Session-based Authentication
 
 Secure Login/Register
+
 Session cookies used (no JWT)
+
 Safe and stable identity handling
 
 💰 Income & Expense Management
 
 Add income & expenses
+
 Delete transaction entries
+
 Categorized & timestamped transactions
+
 Separate Income & Expense pages
 
 📈 Analytics & Charts
@@ -64,6 +84,7 @@ Recharts-powered dynamic graphs
 📤 Export Options
 
 Export transactions as PDF
+
 Export transactions as Excel (.xlsx)
 
 🧪 Experiment Labs
@@ -73,8 +94,11 @@ Testing grounds for upcoming tools/features
 🎨 Modern UI/UX
 
 Fully responsive
+
 Clean layout
+
 Glassmorphism theme
+
 Smooth transitions and design consistency
 
 🛠️ Tech Stack
@@ -82,14 +106,19 @@ Smooth transitions and design consistency
 Frontend
 
 React
+
 TailwindCSS
+
 Recharts
+
 Context API
 
 Backend
 
 Node.js
+
 Express
+
 MongoDB
 
 🔄 User Flow
