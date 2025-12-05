@@ -2,7 +2,8 @@
 <p align="center"> <img src="./frontend/src/assets/images/icons/logo.png" alt="Spendwise Logo" width="160"/> </p>
 <p align="center">📊 Spendwise — Smart Expense Management System</p>
 
-Live Demo: [https://your-live-project-link.com](https://spendwise-mqxp.onrender.com/)
+Live Demo: <a href="https://spendwise-mqxp.onrender.com/" target="_blank">https://spendwise-mqxp.onrender.com/</a>
+
 
 Author: Ali Arshad Khan
 
@@ -11,6 +12,8 @@ With AI-powered insights, responsive UI/UX, analytics, charts, and export featur
 
 📸 Dashboard Preview
 <p align="center"> <img src="./frontend/src/assets/images/dashboardpage.png" alt="Spendwise Dashboard" width="800"/> </p>
+
+
 🚀 Overview
 
 Most people struggle with:
@@ -25,6 +28,7 @@ Analyzing spending patterns
 
 Spendwise provides a centralized, visual, and intelligent platform to simplify all financial tracking.
 
+
 💡 Why Spendwise Matters
 
 Better financial clarity leads to:
@@ -38,6 +42,7 @@ Reduced stress
 Improved control over finances
 
 Spendwise gives users a clear picture of where their money actually goes.
+
 
 🔥 Features
 
@@ -59,6 +64,7 @@ Export Options
 
 Glass Theme
 
+
 🔐 Session-based Authentication
 
 Secure Login/Register
@@ -66,6 +72,7 @@ Secure Login/Register
 Session cookies used (no JWT)
 
 Safe and stable identity handling
+
 
 💰 Income & Expense Management
 
@@ -77,9 +84,11 @@ Categorized & timestamped transactions
 
 Separate Income & Expense pages
 
+
 📈 Analytics & Charts
 
 Recharts-powered dynamic graphs
+
 
 📤 Export Options
 
@@ -87,9 +96,11 @@ Export transactions as PDF
 
 Export transactions as Excel (.xlsx)
 
+
 🧪 Experiment Labs
 
 Testing grounds for upcoming tools/features
+
 
 🎨 Modern UI/UX
 
@@ -100,6 +111,7 @@ Clean layout
 Glassmorphism theme
 
 Smooth transitions and design consistency
+
 
 🛠️ Tech Stack
 
@@ -121,6 +133,7 @@ Express
 
 MongoDB
 
+
 🔄 User Flow
 
 User registers/logs in (session created)
@@ -135,6 +148,7 @@ AI chatbot gives suggestions
 
 User exports data as PDF/Excel
 
+
 📦 Installation & Setup
 # Install dependencies
 npm install
@@ -145,6 +159,7 @@ npm run dev
 
 Make sure backend .env (DB URI, session secret, etc.) is correctly configured.
 
+
 📡 API Endpoints
 Auth (Session-Based)
 POST /auth/signup
@@ -152,13 +167,16 @@ POST /auth/login
 GET  /auth/logout
 GET  /auth/me
 
+
 Transactions
 POST   /transactions/add
 GET    /transactions
 DELETE /transactions/:id
 
+
 AI
 POST /ai/ask-ai
+
 
 🔮 Future Improvements
 
